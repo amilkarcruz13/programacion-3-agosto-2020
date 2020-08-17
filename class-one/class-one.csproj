@@ -116,6 +116,7 @@
     <Content Include="conversionDolar.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DiaSemana.aspx" />
+    <Content Include="Estudiante.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -210,9 +211,17 @@
     <Compile Include="DiaSemana.aspx.designer.cs">
       <DependentUpon>DiaSemana.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Estudiante.aspx.cs">
+      <DependentUpon>Estudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Estudiante.aspx.designer.cs">
+      <DependentUpon>Estudiante.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Persona.cs" />
     <Compile Include="PromedioNotas.aspx.cs">
       <DependentUpon>PromedioNotas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

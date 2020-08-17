@@ -13,10 +13,13 @@ namespace class_one
         {
 
         }
-
+        string mensaje()
+        {
+            string texto = "Soy el mensaje";
+            return texto;
+        }
         protected void btn_semana_Click(object sender, EventArgs e)
         {
-            //testing de repo
             int numeroDia = Convert.ToInt16(txb_numero.Text);
             switch (numeroDia)
             {
