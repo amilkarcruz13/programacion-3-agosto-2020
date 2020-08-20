@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Condicionales.aspx.cs" Inherits="class_one.Condicionales" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Template.Master" CodeBehind="Condicionales.aspx.cs" Inherits="class_one.Condicionales" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Sistema de Verificación de Pago de Impuestos por Sueldo Global</h1>

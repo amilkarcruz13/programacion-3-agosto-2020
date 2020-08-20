@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="PromNotasDinamico.aspx.cs" Inherits="class_one.PromNotasDinamico" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="PromNotasDinamico.aspx.cs" Inherits="class_one.PromNotasDinamico" %>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>Promedio de notas dinamico</h2>

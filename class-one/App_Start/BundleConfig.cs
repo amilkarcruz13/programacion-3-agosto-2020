@@ -25,6 +25,7 @@ namespace class_one
             // El orden es muy importante para el funcionamiento de estos archivos ya que tienen dependencias explícitas
             bundles.Add(new ScriptBundle("~/bundles/MsAjaxJs").Include(
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjax.js",
+                    "~/Scripts/WebForms/MsAjax/MicrosoftAjaxWebServices",
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxApplicationServices.js",
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxTimer.js",
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js"));

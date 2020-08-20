@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="conversionDolar.aspx.cs" Inherits="class_one.conversionDolar" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="conversionDolar.aspx.cs" Inherits="class_one.conversionDolar" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>CONVERSION DE MONEDA</h2>

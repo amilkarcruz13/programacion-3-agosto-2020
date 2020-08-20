@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="PromedioNotas.aspx.cs" Inherits="class_one.PromedioNotas" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="PromedioNotas.aspx.cs" Inherits="class_one.PromedioNotas" %>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server" ID="BodyContent">
     <h2>Promedio de notas</h2>

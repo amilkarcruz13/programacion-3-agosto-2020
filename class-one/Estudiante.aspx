@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Estudiante.aspx.cs" Inherits="class_one.Estudiante" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="Estudiante.aspx.cs" Inherits="class_one.Estudiante" %>
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
     <div class="row">
         <div class="col-md-12">
@@ -9,7 +9,10 @@
             font-weight: lighter;
             box-shadow: 1px 2px 2px rgba(0,0,0,0.4);
             background-color: #21b021;
-            margin-bottom: 20px;">GESTION DE INSTANCIA DE OBJETOS EN C#</label>
+            margin-bottom: 20px;
+            color: #ffffff;
+            text-align: center;
+            ">GESTION DE INSTANCIA DE OBJETOS EN C#</label>
         </div>
         <div class="col-md-12">
             <table class="table table-stripped table-bordered">

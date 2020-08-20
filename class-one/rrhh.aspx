@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="rrhh.aspx.cs" Inherits="class_one.rrhh" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="rrhh.aspx.cs" Inherits="class_one.rrhh" %>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Bienvenidos al Sistema de RRHH </h1>
     <div class="row">
