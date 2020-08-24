@@ -17,7 +17,6 @@ namespace class_one
                 totalVentaGlobal = (int)Session["totalVenta"];
             }
         }
-
         protected void btn_guardar_Click(object sender, EventArgs e)
         {
             string producto = txb_producto.Text;

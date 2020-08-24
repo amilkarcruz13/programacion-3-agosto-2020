@@ -107,6 +107,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Administrador.aspx" />
+    <Content Include="Cliente.aspx" />
     <Content Include="Condicionales.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -188,6 +189,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Cliente.aspx.cs">
+      <DependentUpon>Cliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cliente.aspx.designer.cs">
+      <DependentUpon>Cliente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Condicionales.aspx.cs">
       <DependentUpon>Condicionales.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -263,6 +271,13 @@
     <Compile Include="rrhh.aspx.designer.cs">
       <DependentUpon>rrhh.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SegundoParcial.Master.cs">
+      <DependentUpon>SegundoParcial.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SegundoParcial.Master.designer.cs">
+      <DependentUpon>SegundoParcial.Master</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -307,6 +322,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Template.Master" />
+    <Content Include="SegundoParcial.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

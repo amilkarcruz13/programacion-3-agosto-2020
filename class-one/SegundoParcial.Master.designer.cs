@@ -11,34 +11,25 @@ namespace class_one
 {
 
 
-    public partial class Administrador
+    public partial class SegundoParcial
     {
 
         /// <summary>
-        /// Control lbl_total.
+        /// Control form1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_total;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control lbl_inventario.
+        /// Control MainContent.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_inventario;
-
-        /// <summary>
-        /// Control lbl_detalle.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_detalle;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
     }
 }

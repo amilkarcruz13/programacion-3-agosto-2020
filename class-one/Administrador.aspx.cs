@@ -19,6 +19,10 @@ namespace class_one
             {
                 lbl_inventario.Text = (int)Session["cantidadProducto"] + " Productos en inventario";
             }
+            if (Session["listaCliente"] != null)
+            {
+                lbl_detalle.Text = (string)Session["listaCliente"];
+            }
         }
     }
 }

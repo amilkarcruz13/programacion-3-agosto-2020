@@ -37,4 +37,20 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-stripped table-bordered">
+                <thead>
+                    <tr>
+                        <th>NOMBRE</th>
+                        <th>APELLIDO</th>
+                        <th>CELULAR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <asp:Label ID="lbl_detalle" runat="server"></asp:Label>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </asp:Content>
