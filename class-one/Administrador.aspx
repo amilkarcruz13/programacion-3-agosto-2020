@@ -53,4 +53,21 @@
             </table>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-12">
+            <legend>Lista de estudiantes</legend>
+            <table class="table table-stripped table-bordered">
+                <thead>
+                    <tr>
+                        <th>ESTUDIANTE</th>
+                        <th>APELLIDO</th>
+                        <th>CELULAR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <asp:Label ID="lbl_estudiante" runat="server"></asp:Label>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </asp:Content>

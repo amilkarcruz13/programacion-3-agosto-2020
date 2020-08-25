@@ -23,6 +23,10 @@ namespace class_one
             {
                 lbl_detalle.Text = (string)Session["listaCliente"];
             }
+            if (ViewState["listaEstudiante"] != null)
+            {
+                lbl_estudiante.Text = (string)ViewState["listaEstudiante"];
+            }
         }
     }
 }

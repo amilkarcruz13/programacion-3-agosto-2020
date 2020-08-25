@@ -10,13 +10,16 @@ namespace class_one
     public partial class Cliente : System.Web.UI.Page
     {
         string listado = "";
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if(Session["listaCliente"] != null)
             {
                 listado = (string)Session["listaCliente"];
                 lbl_detalle.Text = listado;
+
             }
+
         }
 
         protected void btn_registrar_Click(object sender, EventArgs e)

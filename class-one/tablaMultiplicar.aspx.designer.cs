@@ -11,26 +11,26 @@ namespace class_one
 {
 
 
-    public partial class Administrador
+    public partial class tablaMultiplicar
     {
 
         /// <summary>
-        /// Control lbl_total.
+        /// Control txb_numero.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_total;
+        protected global::System.Web.UI.WebControls.TextBox txb_numero;
 
         /// <summary>
-        /// Control lbl_inventario.
+        /// Control btn_multiplicar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_inventario;
+        protected global::System.Web.UI.WebControls.Button btn_multiplicar;
 
         /// <summary>
         /// Control lbl_detalle.
@@ -40,14 +40,5 @@ namespace class_one
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbl_detalle;
-
-        /// <summary>
-        /// Control lbl_estudiante.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_estudiante;
     }
 }
