@@ -134,6 +134,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Inventario.aspx" />
     <Content Include="ListaEstudiante.aspx" />
+    <Content Include="MayorMenor_Lista.aspx" />
     <Content Include="PromedioNotas.aspx" />
     <Content Include="PromNotasDinamico.aspx" />
     <Content Include="rrhh.aspx" />
@@ -256,6 +257,13 @@
     </Compile>
     <Compile Include="ListaEstudiante.aspx.designer.cs">
       <DependentUpon>ListaEstudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MayorMenor_Lista.aspx.cs">
+      <DependentUpon>MayorMenor_Lista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MayorMenor_Lista.aspx.designer.cs">
+      <DependentUpon>MayorMenor_Lista.aspx</DependentUpon>
     </Compile>
     <Compile Include="Persona.cs" />
     <Compile Include="PromedioNotas.aspx.cs">
