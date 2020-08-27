@@ -9,6 +9,7 @@ namespace class_one
 {
     public partial class MayorMenor_Lista : System.Web.UI.Page
     {
+        string ejemplo = "algo";
         List<int> numeros = new List<int>();
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -27,6 +28,7 @@ namespace class_one
             int numero = Convert.ToInt16(txb_numero.Text);
             //lista inicia la cantidad de sus elementos a partir de 0
             //ejemplo { 15 , 20 , 50}
+            //ejemplo { persona{'amilkar', 'cruz', '08/05/1991'}, persona{'jorge', 'mercado', '01/01/1980'} }
             //          0     1    2
             //lista.tamaño = 2
             //lista.contar = 3

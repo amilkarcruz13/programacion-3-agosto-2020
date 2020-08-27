@@ -5,6 +5,7 @@ using System.Web;
 
 namespace class_one
 {
+    [Serializable]
     public class Persona
     {
         //ATRIBUTOS
